@@ -1,8 +1,4 @@
-# app.py
-# This is a test commit change
-def add(a, b):
-    return a + b
-
-def test_add():
-    assert add(1, 2) == 3
-    assert add(1, -1) == 0
+# add.py
+a = 5
+b = 7
+print(f"The sum of {a} and {b} is {a+b}")
